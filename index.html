@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namza Music</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="namza music.png" alt="Mursatas Music Logo" id="logo">
+        <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Beranda</a></li>
+                <li><a href="index.html#lirik"><i class="fas fa-music"></i> Lirik Lagu</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                <li><a href="#kontak"><i class="fas fa-envelope"></i> Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="hero-section">
+        <video autoplay muted loop id="hero-video">
+            <source src="kebun.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h2>Selamat Datang di namza music</h2>
+            <p>Tempatnya lirik lagu Sasak terbaik!</p>
+            <a href="#lirik" class="cta-button">Lihat Lirik Lagu <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+    <section id="lirik">
+        <h2>Koleksi Lirik Lagu Sasak</h2>
+        <input type="text" id="search-bar" placeholder="Cari lagu...">
+        <div class="lyrics-grid" id="lyrics-list">
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i> Buak Bile</h3>           
+                <a href="buak bile.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i>Seninen Dengan</h3>           
+                <a href="seninen dengan.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i>Besuruk Olek</h3>           
+                <a href="besuruk olek.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i>Galang Bulan</h3>           
+                <a href="galang bulan.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i>Putus Berayean</h3>           
+                <a href="putus berayean.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i>Pade Angen</h3>           
+                <a href="pade angen.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Buak Bile">
+                <h3><i class="fas fa-compact-disc"></i>Janji Nyawe</h3>           
+                <a href="janji nyawe.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Gugur Mayang">
+                <h3><i class="fas fa-compact-disc"></i> Gugur Mayang</h3>
+                <a href="gugur mayang.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Gugur Mayang">
+                <h3><i class="fas fa-compact-disc"></i> Besopok Angen</h3>
+                <a href="besopok angen.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Batu Jongkor">
+                <h3><i class="fas fa-compact-disc"></i> Batu Jongkor</h3>
+                <a href="batu jongkor.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="lyric-card" data-title="Jauq Ate Sede">
+                <h3><i class="fas fa-compact-disc"></i> Jauq Ate Sede</h3>
+                <a href="jauq ate sede.html" class="card-button">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+</main>
+    <button id="scroll-top" title="Go to top">↑</button>
+<footer>
+    <p>&copy; 2025 Namza Music. Semua hak dilindungi.</p>
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+</footer>
+<script src="script.js"></script>
+</main>
+<script>
+    
+</script>
+
+</body>
+</html>
